@@ -1,0 +1,24 @@
+public class Main {
+    byte b=127; // -128 co 127
+    short s=32767; // -32768 do 32767
+    int i=12; // -2 mld do 2 mld
+    long l=4222323; // bardzooo dużo
+    float f=3.5f; // zmiennoprzecinkowy (kończy się f)
+    double  d=5.3; // zmiennoprzecinkowa większa
+    char x='a'; //znakowa 1 znaku
+    String str = "tekst"; //znakowe wyrazu (String zawsze z dużej)
+    public static void main (String[] args)
+    {
+        int wynik = 5;
+        int wynik1, wynik2, wynik3;
+        int a1=48;
+        int a2=12;
+        wynik1=a1+a2;
+        wynik2=a1-a2;
+        wynik3=a1/a2;
+        System.out.println("Hello"); /** To jest komentarz */
+        System.out.println("Wynik= "+ wynik +wynik);
+        System.out.println("Wynik1="+wynik1);
+        System.out.println("Wynik2="+wynik2);
+        System.out.println("Wynik3="+wynik3);
+    }
